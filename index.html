@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<style>
+      body{
+        margin:0;
+        padding:0;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      }
+nav{
+    display: flex;
+    justify-content: space-between;
+    
+    padding: 0 15px 0 15px;
+    color: white;
+ border: 2px solid transparent; 
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5); 
+    background-image: linear-gradient(to right , black , blue , purple);
+}
+
+.nav-items{
+    display: flex;
+ list-style: none;
+
+}
+
+.nav-items > li{
+    margin: 0 5px 0 5px;
+}
+
+
+.image > img{
+    object-fit: cover;
+   height: 400px;
+   width: 100%;
+   margin-bottom: 4rem;
+ -webkit-mask-image: linear-gradient(black, transparent);
+  mask-image: linear-gradient(rgb(0, 0, 0), transparent);
+}
+
+.image{
+    text-align: justify;
+}
+.page_desc{
+display: grid;
+grid-template-columns: 1fr;
+justify-items: center;
+justify-content: center;
+margin: 0rem 4rem 3rem  4rem;
+}
+
+.page_desc > button{
+ background-image: linear-gradient(135deg, #0c0c0f, #394690, #3b2c63);
+  box-shadow: 0 0 15px rgba(60, 50, 120, 0.3);color: white;
+padding: 12px 100px;
+border-radius: 20px;
+border: 2px rgb(227, 96, 15) solid;
+}
+
+
+.page_desc > p{
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+
+.futures{
+    display: grid;
+    justify-content: center;
+    margin: 0 2rem 4rem 2rem;
+}
+.futures-items{
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+gap: 2rem;
+color: whitesmoke;
+}
+
+.futures-items > .card{
+background-image: linear-gradient(135deg, #6a85ff, #b186f8);
+border: gold 2px solid;
+border-radius: 20px;
+padding: 10px;
+}
+
+
+
+
+    </style>
+</head>
+<body>
+    <nav >
+        <h3>Game Over <span style="color: purple;">Flow</span></h3>
+            <ul class="nav-items">
+                <li>Home</li>
+                <li>Support</li>
+                <li>About us</li>
+              
+            </ul>
+    </nav>
+
+    <section class="image">
+        <img src="./Images/sean-do-EHLd2utEf68-unsplash.jpg" >
+        <div class="page_desc">
+        <h1>Level Up Your Gaming Experience</h1>
+        <p>Discover premium gaming products built for performance, comfort, and style. From high-precision gear to powerful setups, we provide everything you need to dominate every match.</p>
+        <button>FREE TRIAL</button>
+        </div>
+    </section>
+
+
+    <section class="futures">
+        <h2> Top Gear for Ultimate Performance</h2>
+        <div class="futures-items">
+            <div class="card">
+                 
+                <h3>🎮Top Gear to Ultimate Performance🔥</h3>
+                <p>Explore our selection of best-selling keyboards, mice, headsets, and gaming chairs. Each product is crafted to boost your precision, speed, and comfort during long sessions.</p>
+            </div>
+            <div class="card">
+                <h3>⚡High-Speed Hardware⚡</h3>
+                <p>
+                    Boost your gameplay with powerful components made for pro-level performance.
+                </p>
+            </div>
+            <div class="card">
+                  <h3>🎧Immersive Audio Experience💥</h3>
+                <p>
+                   Hear every detail with deep bass and precise directional audio for ultimate immersion.
+                </p>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="image">
+        <img src="./Images/onur-binay-auf3GwpVaOM-unsplash.jpg" alt="">
+         <div class="page_desc">
+        <h1>Customer feedback that speaks for itself</h1>
+       <div class="futures-items">
+            <div class="card">
+                 <i style="font-size: 5rem;" class="fa-solid fa-quote-left"></i>
+                <h3>Sarah J. – Entrepreneur</h3>
+                <p>"This product completely transformed the way I manage my business. It’s intuitive, reliable, and saves me hours every week!".</p>
+            </div>
+            <div class="card">
+                  <i style="font-size: 5rem;" class="fa-solid fa-quote-left"></i>
+                <h3>Michael R. – Designer</h3>
+                <p>"I love the attention to detail and quality. It exceeded all my expectations and made my workflow so much smoother."</p>
+            </div>
+            <div class="card">
+                   <i style="font-size: 5rem;" class="fa-solid fa-quote-left"></i>
+                <h3>Emily K. – Freelancer</h3>
+                <p>"Using this product has been a game-changer. The support team is amazing, and the features are exactly what I needed.".</p>
+            </div>
+        </div>
+        </div>
+    </section>
+
+
+
+
+    <section class="image">
+        <img src="./Images/jose-gil-2pNdTBn4C7U-unsplash.jpg" alt="">
+    </section>
+
+    <footer>
+        
+    </footer>
+</body>
+</html>
